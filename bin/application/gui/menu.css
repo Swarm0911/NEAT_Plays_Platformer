@@ -1,0 +1,39 @@
+.root {
+  -fx-background-color: #EF233C;
+  -fx-text-fill: #2B2D42;
+  -fx-font-size: 32px;
+}
+
+.button{
+	-fx-background-color: #EDF2F4;
+	-fx-background-radius: 10;
+	-fx-background-insets: 0;
+	-fx-border-color: #2B2D42;
+	-fx-border-width: 3;
+	-fx-border-radius: 7;
+	-fx-text-fill: #2B2D42;
+    -fx-font-size: 32px;
+    
+}
+
+.button:hover {
+	-fx-background-color: #8D99AE;
+}
+
+.button:pressed {
+	-fx-background-color: #2b2d42;
+	-fx-border-color: #8D99AE;
+	-fx-text-fill: #8D99AE;
+}
+
+.Inverse{
+	-fx-background-color: #2b2d42;
+	-fx-border-color: #8D99AE;
+	-fx-text-fill: #8D99AE;
+}
+
+.Reverse{
+	-fx-background-color: #EDF2F4;
+	-fx-border-color: #2B2D42;
+	-fx-text-fill: #2B2D42;
+}
